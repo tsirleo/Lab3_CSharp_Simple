@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -49,6 +50,28 @@ namespace Lab3_CSharp
             return "Sorry, all lists in benchmark class are empty.";
         }
 
+        public bool SaveAsText(string filename)
+        {
+            FileStream fStrm = null;
+            StreamWriter sWrt = null;
+            try
+            {
+                fStrm = File.Create(filename);
+                sWrt = new StreamWriter(fStrm);
+                sWrt.WriteLine(ToString());
+                return true;
+            }
+            catch (Exception x)
+            {
+                Console.WriteLine($"Error saving text file: {x}");
+                return false;
+            }
+            finally
+            {
+                if (sWrt != null) { sWrt.Dispose(); }
+                if (fStrm != null) { fStrm.Close(); }
+            }
+        }
 
         public void TestMKL_VM_Func(double head, double end, int N)
         {

@@ -1,0 +1,57 @@
+Experiment number 1:
+VMTime: vector length = 140
+	sinTime_HA = 0,0048094 seconds
+	sinTime_EP = 4,5E-06 seconds
+	cosTime_HA = 2,34E-05 seconds
+	cosTime_EP = 3,3E-06 seconds
+	sinCosTime_HA = 2,2E-05 seconds
+	sinCosTime_EP = 6,1E-06 seconds
+VMAccuracy: vector length = 140	on interval = [2,1; 16,7]
+	sinMaxDiffMod = 6,778966943343789E-09	sinValMaxDiff = 6,778966943343789E-09	sinArgMaxDiff = 14,197142857142836
+	cosMaxDiffMod = 6,8163921174146935E-09	cosValMaxDiff = 6,621495574066216E-09	cosArgMaxDiff = 12,632857142857125
+	scMaxDiffMod = 6,816392228436996E-09	scValMaxDiff = 6,621495574066216E-09	scArgMaxDiff = 12,632857142857125
+
+***********************************************************
+Experiment number 2:
+VMTime: vector length = 1000
+	sinTime_HA = 3,4E-06 seconds
+	sinTime_EP = 1,1E-06 seconds
+	cosTime_HA = 3,2E-06 seconds
+	cosTime_EP = 1E-06 seconds
+	sinCosTime_HA = 5,4E-06 seconds
+	sinCosTime_EP = 1,8E-06 seconds
+VMAccuracy: vector length = 1000	on interval = [1; 7,1]
+	sinMaxDiffMod = 6,809820152220425E-09	sinValMaxDiff = 6,809076080749321E-09	sinArgMaxDiff = 1,5184999999999995
+	cosMaxDiffMod = 6,819059539253658E-09	cosValMaxDiff = 6,8189233148885364E-09	cosArgMaxDiff = 6,337499999999995
+	scMaxDiffMod = 6,819059539253658E-09	scValMaxDiff = 6,8189233148885364E-09	scArgMaxDiff = 6,337499999999995
+
+***********************************************************
+Experiment number 3:
+VMTime: vector length = 10000
+	sinTime_HA = 3,18E-05 seconds
+	sinTime_EP = 7,9E-06 seconds
+	cosTime_HA = 2,06E-05 seconds
+	cosTime_EP = 7E-06 seconds
+	sinCosTime_HA = 3,75E-05 seconds
+	sinCosTime_EP = 1,44E-05 seconds
+VMAccuracy: vector length = 10000	on interval = [11,1; 160,12]
+	sinMaxDiffMod = 6,8193345414968576E-09	sinValMaxDiff = 6,8193345414968576E-09	sinArgMaxDiff = 102,0469060000139
+	cosMaxDiffMod = 6,819295461646391E-09	cosValMaxDiff = 6,819295461646391E-09	cosArgMaxDiff = 25,07807599999935
+	scMaxDiffMod = 6,819295572668693E-09	scValMaxDiff = 6,819295572668693E-09	scArgMaxDiff = 25,07807599999935
+
+***********************************************************
+Experiment number 4:
+VMTime: vector length = 1000000
+	sinTime_HA = 0,0056224 seconds
+	sinTime_EP = 0,0043254 seconds
+	cosTime_HA = 0,0034665 seconds
+	cosTime_EP = 0,0024947 seconds
+	sinCosTime_HA = 0,0077337 seconds
+	sinCosTime_EP = 0,0052741 seconds
+VMAccuracy: vector length = 1000000	on interval = [1; 14000,12]
+	sinMaxDiffMod = 6,81933598478679E-09	sinValMaxDiff = 6,81933598478679E-09	sinArgMaxDiff = 3080,3864263986507
+	cosMaxDiffMod = 6,81933598478679E-09	cosValMaxDiff = 6,81933598478679E-09	cosArgMaxDiff = 10166,139008247015
+	scMaxDiffMod = 6,81933598478679E-09	scValMaxDiff = 6,81933598478679E-09	scArgMaxDiff = 10166,139008247015
+
+***********************************************************
+

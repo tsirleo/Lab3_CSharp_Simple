@@ -16,6 +16,10 @@ namespace MKL_Test
                 benchmark.TestMKL_VM_Func(11.1, 160.12, 10000);
                 benchmark.TestMKL_VM_Func(1.0, 14000.12, 1000000);
                 Console.WriteLine(benchmark.ToString());
+                if (!benchmark.SaveAsText("testResults.txt"))
+                {
+                    Console.WriteLine("Error writing to file");
+                }
             }
             catch(Exception ex)
             {
